@@ -45,7 +45,8 @@ regis <- makeExperimentRegistry("bench_exp",
 
 # OpenML dataset ids to querry
 
-load("data/datset_ids.RData")
+load("data/datset_ids.RData") 
+# datset_ids.RData is missing
 
 nams <- c("LAML", "BLCA", "LGG",  "BRCA", "COAD", "ESCA", 
           "HNSC", "KIRC", "KIRP", "LIHC", "LUAD", "LUSC", 
